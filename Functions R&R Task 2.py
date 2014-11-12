@@ -1,9 +1,18 @@
 #Michelle Yick
-#11-11-2014
-#Functions R&R task 2.
+#12-11-2014
+#Functions R&R Task 2.
 
-msg = input("HeLlO")
+msg = "MichellE"
 
-msg.upper()
+#result = msg.upper()
+#print(result)
 
+#result = msg.lower()
+#print(result)
+
+result = msg.capitalize()
+print(result)
+
+#result = msg.title()
+#print(result)
 
