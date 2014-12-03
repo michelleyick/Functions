@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 # functions improvement exercise (functions class exercises Task 1).
 
+=======
+# functions improvement exercise
+>>>>>>> branch 'master' of https://github.com/michelleyick/Functions.git
 # times-table tester
 import random
 

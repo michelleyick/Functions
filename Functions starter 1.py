@@ -1,6 +1,6 @@
 #Michelle Yick
 #26-11-2014
-#Functions starter 1
+#Functions starter 1 (from the structure chart).
 
 #calculate basic pay
 def calculate_basic_pay(hours,rate):
