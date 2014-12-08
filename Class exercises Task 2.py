@@ -17,7 +17,12 @@ def information():
     street = input("What is the name of the street that you live on?")
     return title,first,last
 
-#Print out the personalised message.
-def message(total):
-    message = full_name_and_title
+#Work out the personalised message.
+def message():
+    information()
+    total = full_name_and_title(title,first,last)
+    #message = full_name_and_title(title,first,last)
+
+def print_message(total):
     print("Welcome {0}.{1} {2}. Your form has been processed and your registration has been successful".format(title,first,last))
+message()
