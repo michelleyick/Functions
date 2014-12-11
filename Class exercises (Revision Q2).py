@@ -4,7 +4,7 @@
 
 #The base of the pyramid
 def pyramid_base(number):
-    total = number()
+    total = ask_for_number()
     return total
 
 #Calculate answer(construction of the pyramid). IF the base number entered is odd.
@@ -12,7 +12,7 @@ def pyramid_body(number):
     while number%2 == 0:
         number = int(input("Please enter a odd number"))
         total = "*" * ask_for_number()
-    return total
+    return number,total
 
 #Ask for number:
 def ask_for_number():
