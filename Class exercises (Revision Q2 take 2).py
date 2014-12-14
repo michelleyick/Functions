@@ -9,9 +9,9 @@ def number_not_odd(number):
 
 #IF number is odd:
 def number_is_odd(number):
-    count = 0
+    count = 1
     for count in range(number):
-        total = print ('*' *(number-count-1) + '*' *(2*count+1))
+        total = print('*' * number and '*' *(number-count-1))
     return total
 
 #INPUT number:
